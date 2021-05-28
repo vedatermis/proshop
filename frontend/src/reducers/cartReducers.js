@@ -20,8 +20,6 @@ export const cartReducer = (state = { cartItems: [] }, action) => {
         };
       }
 
-      return state;
-
     case actionTypes.CART_REMOVE_ITEM:
       return {
         ...state,
